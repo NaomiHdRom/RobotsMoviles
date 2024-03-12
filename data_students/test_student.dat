@@ -1,0 +1,3048 @@
+../motion_planner/GoTo_State_Machine -x 0.643778 -y 0.726906 -a 0.785400 -v 0.187500 -z 0.160000 -s laser -n 16 -t -2.356100 -r 4.712200 -p ../../data_students/ -e obstacle -advance 0.040000 -MaxAngle 0.785400 -selection 4 -largest 0.100000 -noise 0 -omni 1 -vq 0 -size_vq 0 -pr_out 0 -out_file obstacle -nn_rec 0 -nn_unk 0
+
+observations file: ../../data_students/obstacle.raw
+
+ Radio robot 0.030000 
+( origen 0.643778 0.726906 0.785400 )
+( destination 0.187500 0.160000 )
+
+
+ ************************************************************
+distance destination 0.727717 threshold 0.100800
+1 Pose robot 0.643778 0.726906 0.785400 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 3.249294
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 3.249294 quantized destination 0 
+quantized inputs 0
+intensity 1.888317 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 0
+FORWARD
+Present State: 0 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.040000
+movement without noise: angle  0.000000 distance 0.040000
+
+
+ ************************************************************
+distance destination 0.767497 threshold 0.100800
+2 Pose robot 0.672062 0.755190 0.785400 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 3.243691
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 3.243691 quantized destination 0 
+quantized inputs 0
+intensity 1.697643 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 0
+FORWARD
+Present State: 1 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.040000
+movement without noise: angle  0.000000 distance 0.040000
+
+
+ ************************************************************
+distance destination 0.807299 threshold 0.100800
+3 Pose robot 0.700346 0.783475 0.785400 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 3.238642
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 3.238642 quantized destination 0 
+quantized inputs 0
+intensity 1.534373 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 0
+RIGHT
+Present State: 13 RIGHT
+avoidance destination behavior: angle  -0.785400 distance 0.000000
+movement without noise: angle  -0.785400 distance 0.000000
+
+
+ ************************************************************
+distance destination 0.807299 threshold 0.100800
+4 Pose robot 0.700346 0.783475 0.000000 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 4.024042
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 4.024042 quantized destination 0 
+quantized inputs 0
+intensity 1.534373 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 0
+RIGHT
+Present State: 5 TURN RIGTH
+avoidance destination behavior: angle  -0.785400 distance 0.000000
+movement without noise: angle  -0.785400 distance 0.000000
+
+
+ ************************************************************
+distance destination 0.807299 threshold 0.100800
+5 Pose robot 0.700346 0.783475 5.497800 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 4.809427
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 4.809427 quantized destination 2 
+quantized inputs 0
+intensity 1.534373 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 2
+FORWARD
+Present State: 0 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.040000
+movement without noise: angle  0.000000 distance 0.040000
+
+
+ ************************************************************
+distance destination 0.804410 threshold 0.100800
+6 Pose robot 0.728631 0.755191 5.497800 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 4.759915
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 4.759915 quantized destination 2 
+quantized inputs 0
+intensity 1.545416 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 2
+FORWARD
+Present State: 1 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.040000
+movement without noise: angle  0.000000 distance 0.040000
+
+
+ ************************************************************
+distance destination 0.803503 threshold 0.100800
+7 Pose robot 0.756916 0.726907 5.497800 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 4.710169
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 4.710169 quantized destination 0 
+quantized inputs 0
+intensity 1.548905 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 0
+RIGHT
+Present State: 13 RIGHT
+avoidance destination behavior: angle  -0.785400 distance 0.000000
+movement without noise: angle  -0.785400 distance 0.000000
+
+
+ ************************************************************
+distance destination 0.803503 threshold 0.100800
+8 Pose robot 0.756916 0.726907 4.712400 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 5.495568
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 5.495568 quantized destination 2 
+quantized inputs 0
+intensity 1.548905 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 2
+RIGHT
+Present State: 5 TURN RIGTH
+avoidance destination behavior: angle  -0.785400 distance 0.000000
+movement without noise: angle  -0.785400 distance 0.000000
+
+
+ ************************************************************
+distance destination 0.803503 threshold 0.100800
+9 Pose robot 0.756916 0.726907 3.927000 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 6.280969
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 6.280969 quantized destination 2 
+quantized inputs 0
+intensity 1.548905 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 2
+FORWARD
+Present State: 0 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.040000
+movement without noise: angle  0.000000 distance 0.040000
+
+
+ ************************************************************
+distance destination 0.763503 threshold 0.100800
+10 Pose robot 0.728632 0.698622 3.927000 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 6.280852
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 6.280852 quantized destination 2 
+quantized inputs 0
+intensity 1.715450 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 2
+FORWARD
+Present State: 1 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.040000
+movement without noise: angle  0.000000 distance 0.040000
+
+
+ ************************************************************
+distance destination 0.723503 threshold 0.100800
+11 Pose robot 0.700348 0.670338 3.927000 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 6.280724
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 6.280724 quantized destination 2 
+quantized inputs 0
+intensity 1.910376 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 2
+FORWARD
+Present State: 13 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.040000
+movement without noise: angle  0.000000 distance 0.040000
+
+
+ ************************************************************
+distance destination 0.683504 threshold 0.100800
+12 Pose robot 0.672064 0.642053 3.927000 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 6.280580
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 6.280580 quantized destination 2 
+quantized inputs 0
+intensity 2.140516 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 2
+RIGHT
+Present State: 5 TURN RIGTH
+avoidance destination behavior: angle  -0.785400 distance 0.000000
+movement without noise: angle  -0.785400 distance 0.000000
+
+
+ ************************************************************
+distance destination 0.683504 threshold 0.100800
+13 Pose robot 0.672064 0.642053 3.141600 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 0.782794
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 0.782794 quantized destination 3 
+quantized inputs 0
+intensity 2.140516 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 3
+FORWARD
+Present State: 0 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.040000
+movement without noise: angle  0.000000 distance 0.040000
+
+
+ ************************************************************
+distance destination 0.655753 threshold 0.100800
+14 Pose robot 0.632064 0.642053 3.141600 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 0.825827
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 0.825827 quantized destination 3 
+quantized inputs 0
+intensity 2.325518 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 3
+FORWARD
+Present State: 1 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.040000
+movement without noise: angle  0.000000 distance 0.040000
+
+
+ ************************************************************
+distance destination 0.629322 threshold 0.100800
+15 Pose robot 0.592064 0.642053 3.141600 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.093192
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 0.872568
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.093192
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 0.872568 quantized destination 3 
+quantized inputs 0
+intensity 2.524957 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 3
+FORWARD
+Present State: 13 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.040000
+movement without noise: angle  0.000000 distance 0.040000
+
+
+ ************************************************************
+distance destination 0.604385 threshold 0.100800
+16 Pose robot 0.552064 0.642052 3.141600 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.093194
+range observations.sensors[13] 0.093191
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 0.923285
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.093194
+noised range sensors[13] 0.093191
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 0.923285 quantized destination 3 
+quantized inputs 0
+intensity 2.737619 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 3
+LEFT
+Present State: 3 TURN LEFT
+avoidance destination behavior: angle  0.785400 distance 0.000000
+movement without noise: angle  0.785400 distance 0.000000
+
+
+ ************************************************************
+distance destination 0.604385 threshold 0.100800
+17 Pose robot 0.552064 0.642052 3.927000 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.096783
+range observations.sensors[10] 0.091271
+range observations.sensors[11] 0.096779
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 0.137885
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.096783
+noised range sensors[10] 0.091271
+noised range sensors[11] 0.096779
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 0.137885 quantized destination 3 
+quantized inputs 0
+intensity 2.737619 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 3
+FORWARD
+Present State: 0 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.040000
+movement without noise: angle  0.000000 distance 0.040000
+
+
+ ************************************************************
+distance destination 0.564791 threshold 0.100800
+18 Pose robot 0.523780 0.613768 3.927000 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.078816
+range observations.sensors[9] 0.067044
+range observations.sensors[10] 0.062986
+range observations.sensors[11] 0.067041
+range observations.sensors[12] 0.078808
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 0.147619
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.078816
+noised range sensors[9] 0.067044
+noised range sensors[10] 0.062986
+noised range sensors[11] 0.067041
+noised range sensors[12] 0.078808
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 0.147619 quantized destination 3 
+quantized inputs 0
+intensity 3.134904 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 3
+FORWARD
+Present State: 1 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.040000
+movement without noise: angle  0.000000 distance 0.040000
+
+
+ ************************************************************
+distance destination 0.525259 threshold 0.100800
+19 Pose robot 0.495495 0.585483 3.927000 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.060362
+range observations.sensors[8] 0.043855
+range observations.sensors[9] 0.037305
+range observations.sensors[10] 0.034702
+range observations.sensors[11] 0.037303
+range observations.sensors[12] 0.043851
+range observations.sensors[13] 0.060350
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 0.158821
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.060362
+noised range sensors[8] 0.043855
+noised range sensors[9] 0.037305
+noised range sensors[10] 0.034702
+noised range sensors[11] 0.037303
+noised range sensors[12] 0.043851
+noised range sensors[13] 0.060350
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 0.158821 quantized destination 3 
+quantized inputs 2
+intensity 3.624539 quantized intensity 0 
+obs intensity 0 obstacles 2 dest 3
+FORWARD
+Present State: 13 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.040000
+movement without noise: angle  0.000000 distance 0.040000
+
+
+ ************************************************************
+distance destination 0.485804 threshold 0.100800
+20 Pose robot 0.467211 0.557199 3.927000 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.023286
+range observations.sensors[7] 0.012242
+range observations.sensors[8] 0.008894
+range observations.sensors[9] 0.007566
+range observations.sensors[10] 0.006417
+range observations.sensors[11] 0.007565
+range observations.sensors[12] 0.008893
+range observations.sensors[13] 0.012239
+range observations.sensors[14] 0.023276
+range observations.sensors[15] 0.100000
+light source angle 0.171843
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.023286
+noised range sensors[7] 0.012242
+noised range sensors[8] 0.008894
+noised range sensors[9] 0.007566
+noised range sensors[10] 0.006417
+noised range sensors[11] 0.007565
+noised range sensors[12] 0.008893
+noised range sensors[13] 0.012239
+noised range sensors[14] 0.023276
+noised range sensors[15] 0.100000
+angle_light 0.171843 quantized destination 3 
+quantized inputs 2
+intensity 4.237193 quantized intensity 0 
+obs intensity 0 obstacles 2 dest 3
+LEFT
+Present State: 3 TURN LEFT
+avoidance destination behavior: angle  0.785400 distance 0.000000
+movement without noise: angle  0.785400 distance 0.000000
+
+
+ ************************************************************
+distance destination 0.485804 threshold 0.100800
+21 Pose robot 0.467211 0.557199 4.712400 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.045990
+range observations.sensors[4] 0.015849
+range observations.sensors[5] 0.010176
+range observations.sensors[6] 0.008076
+range observations.sensors[7] 0.007285
+range observations.sensors[8] 0.007285
+range observations.sensors[9] 0.008075
+range observations.sensors[10] 0.010175
+range observations.sensors[11] 0.015846
+range observations.sensors[12] 0.045967
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 5.669628
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.045990
+noised range sensors[4] 0.015849
+noised range sensors[5] 0.010176
+noised range sensors[6] 0.008076
+noised range sensors[7] 0.007285
+noised range sensors[8] 0.007285
+noised range sensors[9] 0.008075
+noised range sensors[10] 0.010175
+noised range sensors[11] 0.015846
+noised range sensors[12] 0.045967
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 5.669628 quantized destination 2 
+quantized inputs 3
+intensity 4.237193 quantized intensity 0 
+obs intensity 0 obstacles 3 dest 2
+FORWARD
+Present State: 0 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.040000
+movement without noise: angle  0.000000 distance 0.040000
+robot inside polygon 0 x:0.467, y:0.517,  rad:4.712 polygon  1 polygon name obs1
+The robot remains with the previous position
+
+
+ ************************************************************
+distance destination 0.485804 threshold 0.100800
+22 Pose robot 0.467211 0.557199 4.712400 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.045990
+range observations.sensors[4] 0.015849
+range observations.sensors[5] 0.010176
+range observations.sensors[6] 0.008076
+range observations.sensors[7] 0.007285
+range observations.sensors[8] 0.007285
+range observations.sensors[9] 0.008075
+range observations.sensors[10] 0.010175
+range observations.sensors[11] 0.015846
+range observations.sensors[12] 0.045967
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 5.669628
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.045990
+noised range sensors[4] 0.015849
+noised range sensors[5] 0.010176
+noised range sensors[6] 0.008076
+noised range sensors[7] 0.007285
+noised range sensors[8] 0.007285
+noised range sensors[9] 0.008075
+noised range sensors[10] 0.010175
+noised range sensors[11] 0.015846
+noised range sensors[12] 0.045967
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 5.669628 quantized destination 2 
+quantized inputs 3
+intensity 4.237193 quantized intensity 0 
+obs intensity 0 obstacles 3 dest 2
+STOP
+Present State: 1 STOP
+avoidance destination behavior: angle  0.000000 distance 0.000000
+movement without noise: angle  0.000000 distance 0.000000
+
+
+ ************************************************************
+distance destination 0.485804 threshold 0.100800
+23 Pose robot 0.467211 0.557199 4.712400 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.045990
+range observations.sensors[4] 0.015849
+range observations.sensors[5] 0.010176
+range observations.sensors[6] 0.008076
+range observations.sensors[7] 0.007285
+range observations.sensors[8] 0.007285
+range observations.sensors[9] 0.008075
+range observations.sensors[10] 0.010175
+range observations.sensors[11] 0.015846
+range observations.sensors[12] 0.045967
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 5.669628
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.045990
+noised range sensors[4] 0.015849
+noised range sensors[5] 0.010176
+noised range sensors[6] 0.008076
+noised range sensors[7] 0.007285
+noised range sensors[8] 0.007285
+noised range sensors[9] 0.008075
+noised range sensors[10] 0.010175
+noised range sensors[11] 0.015846
+noised range sensors[12] 0.045967
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 5.669628 quantized destination 2 
+quantized inputs 3
+intensity 4.237193 quantized intensity 0 
+obs intensity 0 obstacles 3 dest 2
+BACKWARD
+Present State: 6 BACKWARD, obstacle FRONT
+avoidance destination behavior: angle  0.000000 distance -0.040000
+movement without noise: angle  0.000000 distance -0.040000
+
+
+ ************************************************************
+distance destination 0.519019 threshold 0.100800
+24 Pose robot 0.467211 0.597199 4.712400 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.066745
+range observations.sensors[6] 0.052969
+range observations.sensors[7] 0.047784
+range observations.sensors[8] 0.047783
+range observations.sensors[9] 0.052967
+range observations.sensors[10] 0.066739
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 5.714017
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.066745
+noised range sensors[6] 0.052969
+noised range sensors[7] 0.047784
+noised range sensors[8] 0.047783
+noised range sensors[9] 0.052967
+noised range sensors[10] 0.066739
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 5.714017 quantized destination 2 
+quantized inputs 0
+intensity 3.712215 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 2
+LEFT
+Present State: 7 TURN 1 LEFT
+avoidance destination behavior: angle  0.785400 distance 0.000000
+movement without noise: angle  0.785400 distance 0.000000
+
+
+ ************************************************************
+distance destination 0.519019 threshold 0.100800
+25 Pose robot 0.467211 0.597199 5.497800 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.080290
+range observations.sensors[3] 0.058336
+range observations.sensors[4] 0.049624
+range observations.sensors[5] 0.047394
+range observations.sensors[6] 0.049624
+range observations.sensors[7] 0.058335
+range observations.sensors[8] 0.080289
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 4.928617
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.080290
+noised range sensors[3] 0.058336
+noised range sensors[4] 0.049624
+noised range sensors[5] 0.047394
+noised range sensors[6] 0.049624
+noised range sensors[7] 0.058335
+noised range sensors[8] 0.080289
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 4.928617 quantized destination 2 
+quantized inputs 0
+intensity 3.712215 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 2
+LEFT
+Present State: 8 TURN 2 LEFT
+avoidance destination behavior: angle  0.785400 distance 0.000000
+movement without noise: angle  0.785400 distance 0.000000
+
+
+ ************************************************************
+distance destination 0.519019 threshold 0.100800
+26 Pose robot 0.467211 0.597199 6.283200 
+range observations.sensors[0] 0.066740
+range observations.sensors[1] 0.052967
+range observations.sensors[2] 0.047784
+range observations.sensors[3] 0.047784
+range observations.sensors[4] 0.052969
+range observations.sensors[5] 0.066744
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 4.143218
+noised range sensors[0] 0.066740
+noised range sensors[1] 0.052967
+noised range sensors[2] 0.047784
+noised range sensors[3] 0.047784
+noised range sensors[4] 0.052969
+noised range sensors[5] 0.066744
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 4.143218 quantized destination 0 
+quantized inputs 0
+intensity 3.712215 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 0
+FORWARD
+Present State: 9 1 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.040000
+movement without noise: angle  0.000000 distance 0.040000
+
+
+ ************************************************************
+distance destination 0.541626 threshold 0.100800
+27 Pose robot 0.507211 0.597199 6.283200 
+range observations.sensors[0] 0.066738
+range observations.sensors[1] 0.052966
+range observations.sensors[2] 0.047782
+range observations.sensors[3] 0.047782
+range observations.sensors[4] 0.052967
+range observations.sensors[5] 0.066742
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 4.080968
+noised range sensors[0] 0.066738
+noised range sensors[1] 0.052966
+noised range sensors[2] 0.047782
+noised range sensors[3] 0.047782
+noised range sensors[4] 0.052967
+noised range sensors[5] 0.066742
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 4.080968 quantized destination 0 
+quantized inputs 0
+intensity 3.408800 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 0
+FORWARD
+Present State: 10 2 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.040000
+movement without noise: angle  0.000000 distance 0.040000
+
+
+ ************************************************************
+distance destination 0.566159 threshold 0.100800
+28 Pose robot 0.547211 0.597200 6.283200 
+range observations.sensors[0] 0.066736
+range observations.sensors[1] 0.052964
+range observations.sensors[2] 0.047781
+range observations.sensors[3] 0.047781
+range observations.sensors[4] 0.052966
+range observations.sensors[5] 0.066740
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 4.023908
+noised range sensors[0] 0.066736
+noised range sensors[1] 0.052964
+noised range sensors[2] 0.047781
+noised range sensors[3] 0.047781
+noised range sensors[4] 0.052966
+noised range sensors[5] 0.066740
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 4.023908 quantized destination 0 
+quantized inputs 0
+intensity 3.119777 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 0
+RIGHT
+Present State: 11 turn 1 RIGHT
+avoidance destination behavior: angle  -0.785400 distance 0.000000
+movement without noise: angle  -0.785400 distance 0.000000
+
+
+ ************************************************************
+distance destination 0.566159 threshold 0.100800
+29 Pose robot 0.547211 0.597200 5.497800 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.080285
+range observations.sensors[3] 0.058332
+range observations.sensors[4] 0.049621
+range observations.sensors[5] 0.047395
+range observations.sensors[6] 0.049621
+range observations.sensors[7] 0.058332
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 4.809308
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.080285
+noised range sensors[3] 0.058332
+noised range sensors[4] 0.049621
+noised range sensors[5] 0.047395
+noised range sensors[6] 0.049621
+noised range sensors[7] 0.058332
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 4.809308 quantized destination 2 
+quantized inputs 0
+intensity 3.119777 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 2
+RIGHT
+Present State: 12 turn 2 RIGHT
+avoidance destination behavior: angle  -0.785400 distance 0.000000
+movement without noise: angle  -0.785400 distance 0.000000
+
+
+ ************************************************************
+distance destination 0.566159 threshold 0.100800
+30 Pose robot 0.547211 0.597200 4.712400 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.066741
+range observations.sensors[6] 0.052966
+range observations.sensors[7] 0.047781
+range observations.sensors[8] 0.047780
+range observations.sensors[9] 0.052964
+range observations.sensors[10] 0.066735
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 5.594708
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.066741
+noised range sensors[6] 0.052966
+noised range sensors[7] 0.047781
+noised range sensors[8] 0.047780
+noised range sensors[9] 0.052964
+noised range sensors[10] 0.066735
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 5.594708 quantized destination 2 
+quantized inputs 0
+intensity 3.119777 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 2
+FORWARD
+Present State: 0 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.040000
+movement without noise: angle  0.000000 distance 0.040000
+
+
+ ************************************************************
+distance destination 0.535873 threshold 0.100800
+31 Pose robot 0.547211 0.557200 4.712400 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.045973
+range observations.sensors[4] 0.015843
+range observations.sensors[5] 0.010172
+range observations.sensors[6] 0.008072
+range observations.sensors[7] 0.007282
+range observations.sensors[8] 0.007282
+range observations.sensors[9] 0.008072
+range observations.sensors[10] 0.010171
+range observations.sensors[11] 0.015840
+range observations.sensors[12] 0.045950
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 5.547264
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.045973
+noised range sensors[4] 0.015843
+noised range sensors[5] 0.010172
+noised range sensors[6] 0.008072
+noised range sensors[7] 0.007282
+noised range sensors[8] 0.007282
+noised range sensors[9] 0.008072
+noised range sensors[10] 0.010171
+noised range sensors[11] 0.015840
+noised range sensors[12] 0.045950
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 5.547264 quantized destination 2 
+quantized inputs 3
+intensity 3.482378 quantized intensity 0 
+obs intensity 0 obstacles 3 dest 2
+STOP
+Present State: 1 STOP
+avoidance destination behavior: angle  0.000000 distance 0.000000
+movement without noise: angle  0.000000 distance 0.000000
+
+
+ ************************************************************
+distance destination 0.535873 threshold 0.100800
+32 Pose robot 0.547211 0.557200 4.712400 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.045973
+range observations.sensors[4] 0.015843
+range observations.sensors[5] 0.010172
+range observations.sensors[6] 0.008072
+range observations.sensors[7] 0.007282
+range observations.sensors[8] 0.007282
+range observations.sensors[9] 0.008072
+range observations.sensors[10] 0.010171
+range observations.sensors[11] 0.015840
+range observations.sensors[12] 0.045950
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 5.547264
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.045973
+noised range sensors[4] 0.015843
+noised range sensors[5] 0.010172
+noised range sensors[6] 0.008072
+noised range sensors[7] 0.007282
+noised range sensors[8] 0.007282
+noised range sensors[9] 0.008072
+noised range sensors[10] 0.010171
+noised range sensors[11] 0.015840
+noised range sensors[12] 0.045950
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 5.547264 quantized destination 2 
+quantized inputs 3
+intensity 3.482378 quantized intensity 0 
+obs intensity 0 obstacles 3 dest 2
+BACKWARD
+Present State: 6 BACKWARD, obstacle FRONT
+avoidance destination behavior: angle  0.000000 distance -0.040000
+movement without noise: angle  0.000000 distance -0.040000
+
+
+ ************************************************************
+distance destination 0.566159 threshold 0.100800
+33 Pose robot 0.547211 0.597200 4.712400 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.066741
+range observations.sensors[6] 0.052966
+range observations.sensors[7] 0.047781
+range observations.sensors[8] 0.047780
+range observations.sensors[9] 0.052964
+range observations.sensors[10] 0.066735
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 5.594708
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.066741
+noised range sensors[6] 0.052966
+noised range sensors[7] 0.047781
+noised range sensors[8] 0.047780
+noised range sensors[9] 0.052964
+noised range sensors[10] 0.066735
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 5.594708 quantized destination 2 
+quantized inputs 0
+intensity 3.119777 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 2
+LEFT
+Present State: 7 TURN 1 LEFT
+avoidance destination behavior: angle  0.785400 distance 0.000000
+movement without noise: angle  0.785400 distance 0.000000
+
+
+ ************************************************************
+distance destination 0.566159 threshold 0.100800
+34 Pose robot 0.547211 0.597200 5.497800 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.080285
+range observations.sensors[3] 0.058332
+range observations.sensors[4] 0.049621
+range observations.sensors[5] 0.047395
+range observations.sensors[6] 0.049621
+range observations.sensors[7] 0.058332
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 4.809308
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.080285
+noised range sensors[3] 0.058332
+noised range sensors[4] 0.049621
+noised range sensors[5] 0.047395
+noised range sensors[6] 0.049621
+noised range sensors[7] 0.058332
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 4.809308 quantized destination 2 
+quantized inputs 0
+intensity 3.119777 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 2
+LEFT
+Present State: 8 TURN 2 LEFT
+avoidance destination behavior: angle  0.785400 distance 0.000000
+movement without noise: angle  0.785400 distance 0.000000
+
+
+ ************************************************************
+distance destination 0.566159 threshold 0.100800
+35 Pose robot 0.547211 0.597200 6.283200 
+range observations.sensors[0] 0.066736
+range observations.sensors[1] 0.052964
+range observations.sensors[2] 0.047781
+range observations.sensors[3] 0.047781
+range observations.sensors[4] 0.052966
+range observations.sensors[5] 0.066740
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 4.023908
+noised range sensors[0] 0.066736
+noised range sensors[1] 0.052964
+noised range sensors[2] 0.047781
+noised range sensors[3] 0.047781
+noised range sensors[4] 0.052966
+noised range sensors[5] 0.066740
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 4.023908 quantized destination 0 
+quantized inputs 0
+intensity 3.119777 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 0
+FORWARD
+Present State: 9 1 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.040000
+movement without noise: angle  0.000000 distance 0.040000
+
+
+ ************************************************************
+distance destination 0.592379 threshold 0.100800
+36 Pose robot 0.587211 0.597200 6.283200 
+range observations.sensors[0] 0.066734
+range observations.sensors[1] 0.052962
+range observations.sensors[2] 0.047779
+range observations.sensors[3] 0.047780
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 3.971742
+noised range sensors[0] 0.066734
+noised range sensors[1] 0.052962
+noised range sensors[2] 0.047779
+noised range sensors[3] 0.047780
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 3.971742 quantized destination 0 
+quantized inputs 0
+intensity 2.849708 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 0
+FORWARD
+Present State: 10 2 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.040000
+movement without noise: angle  0.000000 distance 0.040000
+
+
+ ************************************************************
+distance destination 0.620073 threshold 0.100800
+37 Pose robot 0.627211 0.597201 6.283200 
+range observations.sensors[0] 0.066732
+range observations.sensors[1] 0.059948
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 3.924114
+noised range sensors[0] 0.066732
+noised range sensors[1] 0.059948
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 3.924114 quantized destination 0 
+quantized inputs 0
+intensity 2.600844 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 0
+RIGHT
+Present State: 11 turn 1 RIGHT
+avoidance destination behavior: angle  -0.785400 distance 0.000000
+movement without noise: angle  -0.785400 distance 0.000000
+
+
+ ************************************************************
+distance destination 0.620073 threshold 0.100800
+38 Pose robot 0.627211 0.597201 5.497800 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.080280
+range observations.sensors[3] 0.058329
+range observations.sensors[4] 0.088066
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 4.709514
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.080280
+noised range sensors[3] 0.058329
+noised range sensors[4] 0.088066
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 4.709514 quantized destination 0 
+quantized inputs 0
+intensity 2.600844 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 0
+RIGHT
+Present State: 12 turn 2 RIGHT
+avoidance destination behavior: angle  -0.785400 distance 0.000000
+movement without noise: angle  -0.785400 distance 0.000000
+
+
+ ************************************************************
+distance destination 0.620073 threshold 0.100800
+39 Pose robot 0.627211 0.597201 4.712400 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.066737
+range observations.sensors[6] 0.059940
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 5.494914
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.066737
+noised range sensors[6] 0.059940
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 5.494914 quantized destination 2 
+quantized inputs 0
+intensity 2.600844 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 2
+FORWARD
+Present State: 0 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.040000
+movement without noise: angle  0.000000 distance 0.040000
+
+
+ ************************************************************
+distance destination 0.592549 threshold 0.100800
+40 Pose robot 0.627212 0.557201 4.712400 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.045954
+range observations.sensors[4] 0.030541
+range observations.sensors[5] 0.038483
+range observations.sensors[6] 0.059937
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 5.447025
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.045954
+noised range sensors[4] 0.030541
+noised range sensors[5] 0.038483
+noised range sensors[6] 0.059937
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 5.447025 quantized destination 2 
+quantized inputs 0
+intensity 2.848071 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 2
+FORWARD
+Present State: 1 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.040000
+movement without noise: angle  0.000000 distance 0.040000
+
+
+ ************************************************************
+distance destination 0.566515 threshold 0.100800
+41 Pose robot 0.627212 0.517201 4.712400 
+range observations.sensors[0] 0.038479
+range observations.sensors[1] 0.030538
+range observations.sensors[2] 0.027549
+range observations.sensors[3] 0.027550
+range observations.sensors[4] 0.030539
+range observations.sensors[5] 0.038481
+range observations.sensors[6] 0.059934
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 5.394606
+noised range sensors[0] 0.038479
+noised range sensors[1] 0.030538
+noised range sensors[2] 0.027549
+noised range sensors[3] 0.027550
+noised range sensors[4] 0.030539
+noised range sensors[5] 0.038481
+noised range sensors[6] 0.059934
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 5.394606 quantized destination 2 
+quantized inputs 1
+intensity 3.115855 quantized intensity 0 
+obs intensity 0 obstacles 1 dest 2
+FORWARD
+Present State: 13 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.040000
+movement without noise: angle  0.000000 distance 0.040000
+
+
+ ************************************************************
+distance destination 0.542184 threshold 0.100800
+42 Pose robot 0.627212 0.477201 4.712400 
+range observations.sensors[0] 0.038477
+range observations.sensors[1] 0.030536
+range observations.sensors[2] 0.027548
+range observations.sensors[3] 0.027548
+range observations.sensors[4] 0.030537
+range observations.sensors[5] 0.038479
+range observations.sensors[6] 0.059930
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 5.337312
+noised range sensors[0] 0.038477
+noised range sensors[1] 0.030536
+noised range sensors[2] 0.027548
+noised range sensors[3] 0.027548
+noised range sensors[4] 0.030537
+noised range sensors[5] 0.038479
+noised range sensors[6] 0.059930
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 5.337312 quantized destination 2 
+quantized inputs 1
+intensity 3.401784 quantized intensity 0 
+obs intensity 0 obstacles 1 dest 2
+RIGHT
+Present State: 5 TURN RIGTH
+avoidance destination behavior: angle  -0.785400 distance 0.000000
+movement without noise: angle  -0.785400 distance 0.000000
+
+
+ ************************************************************
+distance destination 0.542184 threshold 0.100800
+43 Pose robot 0.627212 0.477201 3.927000 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.046288
+range observations.sensors[3] 0.033631
+range observations.sensors[4] 0.028609
+range observations.sensors[5] 0.027209
+range observations.sensors[6] 0.028609
+range observations.sensors[7] 0.033631
+range observations.sensors[8] 0.046287
+range observations.sensors[9] 0.088033
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 6.122711
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.046288
+noised range sensors[3] 0.033631
+noised range sensors[4] 0.028609
+noised range sensors[5] 0.027209
+noised range sensors[6] 0.028609
+noised range sensors[7] 0.033631
+noised range sensors[8] 0.046287
+noised range sensors[9] 0.088033
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 6.122711 quantized destination 2 
+quantized inputs 1
+intensity 3.401784 quantized intensity 0 
+obs intensity 0 obstacles 1 dest 2
+FORWARD
+Present State: 0 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.040000
+movement without noise: angle  0.000000 distance 0.040000
+robot inside polygon 0 x:0.599, y:0.449,  rad:3.927 polygon  1 polygon name obs1
+The robot remains with the previous position
+
+
+ ************************************************************
+distance destination 0.542184 threshold 0.100800
+44 Pose robot 0.627212 0.477201 3.927000 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.046288
+range observations.sensors[3] 0.033631
+range observations.sensors[4] 0.028609
+range observations.sensors[5] 0.027209
+range observations.sensors[6] 0.028609
+range observations.sensors[7] 0.033631
+range observations.sensors[8] 0.046287
+range observations.sensors[9] 0.088033
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 6.122711
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.046288
+noised range sensors[3] 0.033631
+noised range sensors[4] 0.028609
+noised range sensors[5] 0.027209
+noised range sensors[6] 0.028609
+noised range sensors[7] 0.033631
+noised range sensors[8] 0.046287
+noised range sensors[9] 0.088033
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 6.122711 quantized destination 2 
+quantized inputs 1
+intensity 3.401784 quantized intensity 0 
+obs intensity 0 obstacles 1 dest 2
+STOP
+Present State: 1 STOP
+avoidance destination behavior: angle  0.000000 distance 0.000000
+movement without noise: angle  0.000000 distance 0.000000
+
+
+ ************************************************************
+distance destination 0.542184 threshold 0.100800
+45 Pose robot 0.627212 0.477201 3.927000 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.046288
+range observations.sensors[3] 0.033631
+range observations.sensors[4] 0.028609
+range observations.sensors[5] 0.027209
+range observations.sensors[6] 0.028609
+range observations.sensors[7] 0.033631
+range observations.sensors[8] 0.046287
+range observations.sensors[9] 0.088033
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 6.122711
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.046288
+noised range sensors[3] 0.033631
+noised range sensors[4] 0.028609
+noised range sensors[5] 0.027209
+noised range sensors[6] 0.028609
+noised range sensors[7] 0.033631
+noised range sensors[8] 0.046287
+noised range sensors[9] 0.088033
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 6.122711 quantized destination 2 
+quantized inputs 1
+intensity 3.401784 quantized intensity 0 
+obs intensity 0 obstacles 1 dest 2
+BACKWARD
+Present State: 2 BACKWARD, obstacle right
+avoidance destination behavior: angle  0.000000 distance -0.040000
+movement without noise: angle  0.000000 distance -0.040000
+
+
+ ************************************************************
+distance destination 0.581705 threshold 0.100800
+46 Pose robot 0.655496 0.505486 3.927000 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.068594
+range observations.sensors[4] 0.058350
+range observations.sensors[5] 0.055494
+range observations.sensors[6] 0.058350
+range observations.sensors[7] 0.068593
+range observations.sensors[8] 0.094406
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 6.133699
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.068594
+noised range sensors[4] 0.058350
+noised range sensors[5] 0.055494
+noised range sensors[6] 0.058350
+noised range sensors[7] 0.068593
+noised range sensors[8] 0.094406
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 6.133699 quantized destination 2 
+quantized inputs 0
+intensity 2.955250 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 2
+LEFT
+Present State: 3 TURN LEFT
+avoidance destination behavior: angle  0.785400 distance 0.000000
+movement without noise: angle  0.785400 distance 0.000000
+
+
+ ************************************************************
+distance destination 0.581705 threshold 0.100800
+47 Pose robot 0.655496 0.505486 4.712400 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.062281
+range observations.sensors[2] 0.056186
+range observations.sensors[3] 0.056186
+range observations.sensors[4] 0.062283
+range observations.sensors[5] 0.078480
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 5.348299
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.062281
+noised range sensors[2] 0.056186
+noised range sensors[3] 0.056186
+noised range sensors[4] 0.062283
+noised range sensors[5] 0.078480
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 5.348299 quantized destination 2 
+quantized inputs 0
+intensity 2.955250 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 2
+FORWARD
+Present State: 0 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.040000
+movement without noise: angle  0.000000 distance 0.040000
+
+
+ ************************************************************
+distance destination 0.558876 threshold 0.100800
+48 Pose robot 0.655497 0.465486 4.712400 
+range observations.sensors[0] 0.078474
+range observations.sensors[1] 0.062279
+range observations.sensors[2] 0.056184
+range observations.sensors[3] 0.056184
+range observations.sensors[4] 0.062281
+range observations.sensors[5] 0.078478
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 5.290685
+noised range sensors[0] 0.078474
+noised range sensors[1] 0.062279
+noised range sensors[2] 0.056184
+noised range sensors[3] 0.056184
+noised range sensors[4] 0.062281
+noised range sensors[5] 0.078478
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 5.290685 quantized destination 2 
+quantized inputs 0
+intensity 3.201614 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 2
+FORWARD
+Present State: 1 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.040000
+movement without noise: angle  0.000000 distance 0.040000
+
+
+ ************************************************************
+distance destination 0.538056 threshold 0.100800
+49 Pose robot 0.655497 0.425486 4.712400 
+range observations.sensors[0] 0.078472
+range observations.sensors[1] 0.062278
+range observations.sensors[2] 0.056182
+range observations.sensors[3] 0.056183
+range observations.sensors[4] 0.062279
+range observations.sensors[5] 0.078475
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 5.228392
+noised range sensors[0] 0.078472
+noised range sensors[1] 0.062278
+noised range sensors[2] 0.056182
+noised range sensors[3] 0.056183
+noised range sensors[4] 0.062279
+noised range sensors[5] 0.078475
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 5.228392 quantized destination 2 
+quantized inputs 0
+intensity 3.454184 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 2
+FORWARD
+Present State: 13 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.040000
+movement without noise: angle  0.000000 distance 0.040000
+
+
+ ************************************************************
+distance destination 0.519486 threshold 0.100800
+50 Pose robot 0.655498 0.385486 4.712400 
+range observations.sensors[0] 0.078469
+range observations.sensors[1] 0.062276
+range observations.sensors[2] 0.056181
+range observations.sensors[3] 0.056181
+range observations.sensors[4] 0.062277
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 5.161367
+noised range sensors[0] 0.078469
+noised range sensors[1] 0.062276
+noised range sensors[2] 0.056181
+noised range sensors[3] 0.056181
+noised range sensors[4] 0.062277
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 5.161367 quantized destination 2 
+quantized inputs 0
+intensity 3.705549 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 2
+RIGHT
+Present State: 5 TURN RIGTH
+avoidance destination behavior: angle  -0.785400 distance 0.000000
+movement without noise: angle  -0.785400 distance 0.000000
+
+
+ ************************************************************
+distance destination 0.519486 threshold 0.100800
+51 Pose robot 0.655498 0.385486 3.927000 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.094400
+range observations.sensors[3] 0.068588
+range observations.sensors[4] 0.058345
+range observations.sensors[5] 0.055489
+range observations.sensors[6] 0.058345
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 5.946768
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.094400
+noised range sensors[3] 0.068588
+noised range sensors[4] 0.058345
+noised range sensors[5] 0.055489
+noised range sensors[6] 0.058345
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 5.946768 quantized destination 2 
+quantized inputs 0
+intensity 3.705549 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 2
+FORWARD
+Present State: 0 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.040000
+movement without noise: angle  0.000000 distance 0.040000
+
+
+ ************************************************************
+distance destination 0.481909 threshold 0.100800
+52 Pose robot 0.627214 0.357201 3.927000 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.088023
+range observations.sensors[2] 0.046280
+range observations.sensors[3] 0.033626
+range observations.sensors[4] 0.028604
+range observations.sensors[5] 0.027204
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 5.919364
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.088023
+noised range sensors[2] 0.046280
+noised range sensors[3] 0.033626
+noised range sensors[4] 0.028604
+noised range sensors[5] 0.027204
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 5.919364 quantized destination 2 
+quantized inputs 0
+intensity 4.305959 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 2
+FORWARD
+Present State: 1 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.040000
+movement without noise: angle  0.000000 distance 0.040000
+
+
+ ************************************************************
+distance destination 0.444755 threshold 0.100800
+53 Pose robot 0.598930 0.328917 3.927000 
+range observations.sensors[0] 0.021181
+range observations.sensors[1] 0.022170
+range observations.sensors[2] 0.026063
+range observations.sensors[3] 0.035875
+range observations.sensors[4] 0.068249
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 5.887355
+noised range sensors[0] 0.021181
+noised range sensors[1] 0.022170
+noised range sensors[2] 0.026063
+noised range sensors[3] 0.035875
+noised range sensors[4] 0.068249
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 5.887355 quantized destination 2 
+quantized inputs 1
+intensity 5.055431 quantized intensity 0 
+obs intensity 0 obstacles 1 dest 2
+FORWARD
+Present State: 13 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.040000
+movement without noise: angle  0.000000 distance 0.040000
+
+
+ ************************************************************
+distance destination 0.408140 threshold 0.100800
+54 Pose robot 0.570646 0.300632 3.927000 
+range observations.sensors[0] 0.049466
+range observations.sensors[1] 0.051913
+range observations.sensors[2] 0.061030
+range observations.sensors[3] 0.084006
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 5.849557
+noised range sensors[0] 0.049466
+noised range sensors[1] 0.051913
+noised range sensors[2] 0.061030
+noised range sensors[3] 0.084006
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 5.849557 quantized destination 2 
+quantized inputs 0
+intensity 6.003198 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 2
+RIGHT
+Present State: 5 TURN RIGTH
+avoidance destination behavior: angle  -0.785400 distance 0.000000
+movement without noise: angle  -0.785400 distance 0.000000
+
+
+ ************************************************************
+distance destination 0.408140 threshold 0.100800
+55 Pose robot 0.570646 0.300632 3.141600 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.055405
+range observations.sensors[2] 0.049984
+range observations.sensors[3] 0.049986
+range observations.sensors[4] 0.055412
+range observations.sensors[5] 0.069825
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 0.351772
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.055405
+noised range sensors[2] 0.049984
+noised range sensors[3] 0.049986
+noised range sensors[4] 0.055412
+noised range sensors[5] 0.069825
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 0.351772 quantized destination 3 
+quantized inputs 0
+intensity 6.003198 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 3
+FORWARD
+Present State: 0 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.040000
+movement without noise: angle  0.000000 distance 0.040000
+
+
+ ************************************************************
+distance destination 0.370845 threshold 0.100800
+56 Pose robot 0.530646 0.300632 3.141600 
+range observations.sensors[0] 0.069812
+range observations.sensors[1] 0.055407
+range observations.sensors[2] 0.049986
+range observations.sensors[3] 0.049988
+range observations.sensors[4] 0.055414
+range observations.sensors[5] 0.069828
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 0.388945
+noised range sensors[0] 0.069812
+noised range sensors[1] 0.055407
+noised range sensors[2] 0.049986
+noised range sensors[3] 0.049988
+noised range sensors[4] 0.055414
+noised range sensors[5] 0.069828
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 0.388945 quantized destination 3 
+quantized inputs 0
+intensity 7.271344 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 3
+FORWARD
+Present State: 1 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.040000
+movement without noise: angle  0.000000 distance 0.040000
+
+
+ ************************************************************
+distance destination 0.334177 threshold 0.100800
+57 Pose robot 0.490646 0.300631 3.141600 
+range observations.sensors[0] 0.069815
+range observations.sensors[1] 0.055410
+range observations.sensors[2] 0.049988
+range observations.sensors[3] 0.049991
+range observations.sensors[4] 0.055417
+range observations.sensors[5] 0.069832
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 0.434351
+noised range sensors[0] 0.069815
+noised range sensors[1] 0.055410
+noised range sensors[2] 0.049988
+noised range sensors[3] 0.049991
+noised range sensors[4] 0.055417
+noised range sensors[5] 0.069832
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 0.434351 quantized destination 3 
+quantized inputs 0
+intensity 8.954602 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 3
+FORWARD
+Present State: 13 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.040000
+movement without noise: angle  0.000000 distance 0.040000
+
+
+ ************************************************************
+distance destination 0.298367 threshold 0.100800
+58 Pose robot 0.450646 0.300631 3.141600 
+range observations.sensors[0] 0.069818
+range observations.sensors[1] 0.055413
+range observations.sensors[2] 0.049991
+range observations.sensors[3] 0.049993
+range observations.sensors[4] 0.055419
+range observations.sensors[5] 0.069835
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 0.490798
+noised range sensors[0] 0.069818
+noised range sensors[1] 0.055413
+noised range sensors[2] 0.049991
+noised range sensors[3] 0.049993
+noised range sensors[4] 0.055419
+noised range sensors[5] 0.069835
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 0.490798 quantized destination 3 
+quantized inputs 0
+intensity 11.233089 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 3
+LEFT
+Present State: 3 TURN LEFT
+avoidance destination behavior: angle  0.785400 distance 0.000000
+movement without noise: angle  0.785400 distance 0.000000
+
+
+ ************************************************************
+distance destination 0.298367 threshold 0.100800
+59 Pose robot 0.450646 0.300631 3.927000 
+range observations.sensors[0] 0.049467
+range observations.sensors[1] 0.051920
+range observations.sensors[2] 0.061038
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 5.988584
+noised range sensors[0] 0.049467
+noised range sensors[1] 0.051920
+noised range sensors[2] 0.061038
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 5.988584 quantized destination 2 
+quantized inputs 0
+intensity 11.233089 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 2
+FORWARD
+Present State: 0 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.040000
+movement without noise: angle  0.000000 distance 0.040000
+
+
+ ************************************************************
+distance destination 0.260349 threshold 0.100800
+60 Pose robot 0.422362 0.272347 3.927000 
+range observations.sensors[0] 0.077751
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 5.943958
+noised range sensors[0] 0.077751
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 5.943958 quantized destination 2 
+quantized inputs 0
+intensity 14.753246 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 2
+FORWARD
+Present State: 1 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.040000
+movement without noise: angle  0.000000 distance 0.040000
+
+
+ ************************************************************
+distance destination 0.223026 threshold 0.100800
+61 Pose robot 0.394078 0.244062 3.927000 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 5.884242
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 5.884242 quantized destination 2 
+quantized inputs 0
+intensity 20.104258 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 2
+FORWARD
+Present State: 13 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.040000
+movement without noise: angle  0.000000 distance 0.040000
+
+
+ ************************************************************
+distance destination 0.186815 threshold 0.100800
+62 Pose robot 0.365794 0.215778 3.927000 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 5.800974
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 5.800974 quantized destination 2 
+quantized inputs 0
+intensity 28.653528 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 2
+RIGHT
+Present State: 5 TURN RIGTH
+avoidance destination behavior: angle  -0.785400 distance 0.000000
+movement without noise: angle  -0.785400 distance 0.000000
+
+
+ ************************************************************
+distance destination 0.186815 threshold 0.100800
+63 Pose robot 0.365794 0.215778 3.141600 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 0.303188
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 0.303188 quantized destination 3 
+quantized inputs 0
+intensity 28.653528 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 3
+FORWARD
+Present State: 0 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.040000
+movement without noise: angle  0.000000 distance 0.040000
+
+
+ ************************************************************
+distance destination 0.149118 threshold 0.100800
+64 Pose robot 0.325794 0.215777 3.141600 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 0.383362
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 0.383362 quantized destination 3 
+quantized inputs 0
+intensity 44.971710 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 3
+FORWARD
+Present State: 1 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.040000
+movement without noise: angle  0.000000 distance 0.040000
+
+
+ ************************************************************
+distance destination 0.113016 threshold 0.100800
+65 Pose robot 0.285794 0.215777 3.141600 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 0.516136
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 0.516136 quantized destination 3 
+quantized inputs 0
+intensity 78.292068 quantized intensity 0 
+obs intensity 0 obstacles 0 dest 3
+FORWARD
+Present State: 13 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.040000
+movement without noise: angle  0.000000 distance 0.040000
+
+
+ ************************************************************
+ reached distance destination 0.080679
+distance destination 0.080679 threshold 0.100800
+66 Pose robot 0.245794 0.215777 3.141600 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 0.763330
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+angle_light 0.763330 quantized destination 3 
+quantized inputs 0
+intensity 153.629425 quantized intensity 1 
+obs intensity 1 obstacles 0 dest 3
+LEFT
+Present State: 3 TURN LEFT
+avoidance destination behavior: angle  0.785400 distance 0.000000
+movement without noise: angle  0.785400 distance 0.000000
