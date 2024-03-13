@@ -103,6 +103,8 @@ AdvanceAngle BUG1( coord coord_robot,coord coord_dest,Raw observations, int dest
  float right_side=0;
  int value = 0;
 
+ coord coord_ini;
+
  printf("\n\n **************** Student State Machine *********************\n");
 
  for(j=0;j<num_sensors/2;j++){
@@ -160,18 +162,33 @@ AdvanceAngle BUG1( coord coord_robot,coord coord_dest,Raw observations, int dest
                 else{
                         gen_vector=generate_output(STOP,Mag_Advance,max_angle);
                         printf("Present State: %d STOP\n", state);
+                        coord_ini=coord_robot;
+                        
 
                         if (obs == 1){
                                 // obtacle in the  right
-                                *next_state = 2;
+                                *next_state = 9;
                         }
                         else if (obs == 2){
                                 // obtacle in the left
-                                *next_state = 4;
+                                *next_state = 12;
                         }
                         else if (obs == 3){
-				// obstacle in the front
-                                *next_state = 6;
+				
+                                if(left_side<right_side) //esquina en la izq
+                                {
+                                        *next_state=4; 
+                                }
+                                else if (left_side>right_side) //esquina en la der
+                                {
+                                        *next_state=2;
+                                }
+                                else //obs enfrente
+                                {
+                                        *next_state=6;   
+                                }
+                                
+                                
                         }
                 }
 
@@ -179,28 +196,28 @@ AdvanceAngle BUG1( coord coord_robot,coord coord_dest,Raw observations, int dest
 
         case 2: // Backward, obstacle in the right
                 gen_vector=generate_output(BACKWARD,Mag_Advance,max_angle);
-                *next_state = 14;
+                *next_state = 3;
 
 		printf("Present State: %d BACKWARD, obstacle right\n", state);
                 break;
 
         case 3: // right turn
                 gen_vector=generate_output(LEFT,Mag_Advance,max_angle);
-                *next_state = 0;
+                *next_state = 10;
 
 		printf("Present State: %d TURN LEFT\n", state);
                 break;
 
         case 4: // Backward, obstacle in the left
                 gen_vector=generate_output(BACKWARD,Mag_Advance,max_angle);
-                *next_state = 15;
+                *next_state = 5;
 
 		printf("Present State: %d BACKWARD, obstacle left\n", state);
                 break;
 
         case 5: // left turn
                 gen_vector=generate_output(RIGHT,Mag_Advance,max_angle);
-                *next_state = 0;
+                *next_state = 10;
 
 		printf("Present State: %d TURN RIGTH\n", state);
                 break;
@@ -233,23 +250,46 @@ AdvanceAngle BUG1( coord coord_robot,coord coord_dest,Raw observations, int dest
                 printf("Present State: %d 1 FORWARD\n", state);
                 break;
 
-        case 10: // Forward
-                gen_vector=generate_output(FORWARD,Mag_Advance,max_angle);
-                *next_state = 11;
+        case 10: //CERRAR RODEO
+                if(coord_ini.xc==coord_robot.xc&& coord_ini.yc==coord_robot.yc&&coord_ini.anglec==coord_robot.anglec)
+                {
+                        gen_vector=generate_output(STOP,Mag_Advance,max_angle);
+                        *next_state=13;
+                }
+                else
+                {
+                        gen_vector=generate_output(STOP,Mag_Advance,max_angle);
+                        *next_state=11;
+                }
 
-                printf("Present State: %d 2 FORWARD\n", state);
                 break;
 
-	case 11: // Right turn
-                gen_vector=generate_output(RIGHT,Mag_Advance,max_angle);
-                *next_state = 12;
-
-                printf("Present State: %d turn 1 RIGHT\n", state);
+	case 11: if(obs==0)
+                {
+                        gen_vector=generate_output(RIGHT,Mag_Advance,max_angle);
+                        *next_state=16;
+                }
+                else
+                {
+                        gen_vector=generate_output(STOP,Mag_Advance,max_angle);
+                        coord_ini=coord_robot;
+                        if (obs==1)
+                        {
+                                *next_state=9;
+                        }
+                        else if (obs==3)
+                        {
+                                if(left_side<right_side){ *next_state=4;}
+                                else if (left_side>right_side){*next_state=2;}
+                        }
+                        else{*next_state=6;}
+                        
+                }
                 break;
 
         case 12: // Right turn
                 gen_vector=generate_output(RIGHT,Mag_Advance,max_angle);
-                *next_state = 17;
+                *next_state = 14;
 
                 printf("Present State: %d turn 2 RIGHT\n", state);
                 break;
@@ -259,87 +299,65 @@ AdvanceAngle BUG1( coord coord_robot,coord coord_dest,Raw observations, int dest
 		 if (dest == 0){
                                 // go right
                                 gen_vector=generate_output(RIGHT,Mag_Advance,max_angle);
-                                *next_state = 5;
+                                *next_state = 17;
 
                                 printf("Present State: %d RIGHT\n", state);
                  }
                  else if (dest == 1){
                                 // go left
                                 gen_vector=generate_output(LEFT,Mag_Advance,max_angle);
-                                *next_state = 3;
+                                *next_state = 18;
 
                                 printf("Present State: %d LEFT\n", state);
                  }
                  else if (dest == 2){
                                 // go right single
                                 gen_vector=generate_output(FORWARD,Mag_Advance,max_angle);
-                                *next_state = 5;
+                                *next_state = 17;
 
                                 printf("Present State: %d FORWARD\n", state);
                  }
                  else if (dest == 3){
                                 // go left single
                                 gen_vector=generate_output(FORWARD,Mag_Advance,max_angle);
-                                *next_state = 3;
+                                *next_state = 18;
 
                                 printf("Present State: %d FORWARD\n", state);
                  }
                 break;
 
 
-        case 14: //izquierda
-                gen_vector= generate_output(LEFT,Mag_Advance,max_angle);  
-                *next_state= 16;    
+        case 14: 
+                gen_vector= generate_output(RIGHT,Mag_Advance,max_angle);  
+                *next_state= 15;    
                 break;
 
-        case 15: //derecha 
+        case 15: 
                 gen_vector= generate_output(RIGHT,Mag_Advance,max_angle);  
                 *next_state= 16;
                 break;
 
-        case 16: //ENFRENTE
-                gen_vector= generate_output(FORWARD,Mag_Advance,max_angle);  
-                *next_state=0;
+        case 16: 
+                gen_vector= generate_output(RIGHT,Mag_Advance,max_angle);  
+                *next_state=9;
                 break;
 
         case 17: //detener
-                gen_vector=generate_output(STOP,Mag_Advance,max_angle);
+                gen_vector=generate_output(RIGHT,Mag_Advance,max_angle);
+                *next_state=0;
                 break;
+        
 
         case 18: 
-                 if (obs == 0){
-			// There is not obstacle
-                     
-                         gen_vector=generate_output(STOP,Mag_Advance,max_angle);
-                        printf("Present State: %d STOP\n", state);
-
-                        if (obs == 1){
-                                // obtacle in the  right
-                                *next_state = 2;
-                        }
-                        else if (obs == 2){
-                                // obtacle in the left
-                                *next_state = 4;
-                        }
-                        else if (obs == 3){
-				// obstacle in the front
-                                *next_state = 6;
-                        }
-                }
+                gen_vector=generate_output(LEFT,Mag_Advance,max_angle);
+                *next_state=0;
                 
-                else{
-                          gen_vector=generate_output(FORWARD,Mag_Advance,max_angle);
-                         *next_state = 13;
-
-                        printf("Present State: %d FORWARD\n", state);
-                }
-
-                break;
-           
+                
 
 	default:
 		printf("State %d not defined used ", state);
                 gen_vector=generate_output(STOP,Mag_Advance,max_angle);
+                *next_state=8;
                 
                 break;
 
