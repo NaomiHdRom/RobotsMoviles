@@ -277,6 +277,10 @@ AdvanceAngle BUG1( coord coord_robot,coord coord_dest,Raw observations, int dest
                         {
                                 *next_state=9;
                         }
+                        else if(obs==2)
+                        {
+                                *next_state=12;
+                        }
                         else if (obs==3)
                         {
                                 if(left_side<right_side){ *next_state=4;}
@@ -351,14 +355,14 @@ AdvanceAngle BUG1( coord coord_robot,coord coord_dest,Raw observations, int dest
         case 18: 
                 gen_vector=generate_output(LEFT,Mag_Advance,max_angle);
                 *next_state=0;
+                break;
                 
                 
 
 	default:
 		printf("State %d not defined used ", state);
                 gen_vector=generate_output(STOP,Mag_Advance,max_angle);
-                *next_state=8;
-                
+                *next_state=0;
                 break;
 
                 
