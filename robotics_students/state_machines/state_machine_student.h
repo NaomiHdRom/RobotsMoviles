@@ -110,6 +110,9 @@ AdvanceAngle BUG1(coord coord_robot, coord coord_dest, Raw observations, int des
         coord pos_rodeo;
         coord pos_min;
 
+        bool rodeo = false;
+        int contador;
+
         printf("\n\n **************** Student State Machine *********************\n");
 
         for (j = 0; j < num_sensors / 2; j++)
@@ -183,18 +186,24 @@ AdvanceAngle BUG1(coord coord_robot, coord coord_dest, Raw observations, int des
                         pos_min = coord_robot;
                         dist_min = distance(pos_min, coord_dest);
 
-                            if (obs == 1)
+                        if (obs == 1)
                         {
                                 // obtacle in the  right
                                 *next_state = 9;
+                                contador++;
+                                printf("contador actual= %d", contador);
                         }
                         else if (obs == 2)
                         {
                                 // obtacle in the left
                                 *next_state = 12;
+                                contador++;
+                                printf("contador actual= %d", contador);
                         }
                         else if (obs == 3)
                         {
+                                contador++;
+                                printf("contador actual= %d", contador);
 
                                 if (left_side < right_side) //esquina en la izq
                                 {
@@ -215,6 +224,8 @@ AdvanceAngle BUG1(coord coord_robot, coord coord_dest, Raw observations, int des
 
         case 2: // Backward, obstacle in the right
                 gen_vector = generate_output(BACKWARD, Mag_Advance, max_angle);
+                contador--;
+                printf("contador actual= %d", contador);
                 pos_rodeo = coord_robot;
                 dist_goal = distance(pos_rodeo, coord_dest);
 
@@ -238,6 +249,8 @@ AdvanceAngle BUG1(coord coord_robot, coord coord_dest, Raw observations, int des
 
         case 4: // Backward, obstacle in the left
                 gen_vector = generate_output(BACKWARD, Mag_Advance, max_angle);
+                contador--;
+                printf("contador actual= %d", contador);
                 pos_rodeo = coord_robot;
                 dist_goal = distance(pos_rodeo, coord_dest);
 
@@ -260,6 +273,8 @@ AdvanceAngle BUG1(coord coord_robot, coord coord_dest, Raw observations, int des
 
         case 6: // Backward, obstacle in front
                 gen_vector = generate_output(BACKWARD, Mag_Advance, max_angle);
+                contador--;
+                printf("contador actual= %d", contador);
                 pos_rodeo = coord_robot;
                 dist_goal = distance(pos_rodeo, coord_dest);
 
@@ -289,14 +304,9 @@ AdvanceAngle BUG1(coord coord_robot, coord coord_dest, Raw observations, int des
 
         case 9: // Forward
                 gen_vector = generate_output(FORWARD, Mag_Advance, max_angle);
-                pos_rodeo = coord_robot;
-                dist_goal = distance(pos_rodeo, coord_dest);
+                contador++;
+                printf("contador actual= %d", contador);
 
-                if (dist_min > dist_goal)
-                {
-                        pos_min = coord_robot;
-                        dist_min = distance(pos_min, coord_dest);
-                }
                 *next_state = 10;
 
                 printf("Present State: %d 1 FORWARD\n", state);
@@ -305,12 +315,20 @@ AdvanceAngle BUG1(coord coord_robot, coord coord_dest, Raw observations, int des
         case 10: //CERRAR RODEO
                 if (coord_ini.xc == coord_robot.xc && coord_ini.yc == coord_robot.yc && coord_ini.anglec == coord_robot.anglec)
                 {
+                        rodeo = true;
+                        printf("RODEO: TRUE");
+                        pos_min = coord_robot;
+
                         gen_vector = generate_output(STOP, Mag_Advance, max_angle);
+
                         *next_state = 19;
                 }
                 else
                 {
                         gen_vector = generate_output(STOP, Mag_Advance, max_angle);
+                        gen_vector = generate_output(STOP, Mag_Advance, max_angle);
+                        gen_vector = generate_output(STOP, Mag_Advance, max_angle);
+
                         *next_state = 11;
                 }
 
@@ -350,6 +368,7 @@ AdvanceAngle BUG1(coord coord_robot, coord coord_dest, Raw observations, int des
                                 *next_state = 6;
                         }
                 }
+
                 break;
 
         case 12: // Right turn
@@ -388,6 +407,8 @@ AdvanceAngle BUG1(coord coord_robot, coord coord_dest, Raw observations, int des
                 {
                         // go right single
                         gen_vector = generate_output(FORWARD, Mag_Advance, max_angle);
+                        contador++;
+                        printf("contador actual= %d", contador);
                         *next_state = 17;
 
                         printf("Present State: %d FORWARD\n", state);
@@ -428,16 +449,12 @@ AdvanceAngle BUG1(coord coord_robot, coord coord_dest, Raw observations, int des
                 break;
 
         case 19: //CONFIRMAR REGRESO
-                if (pos_min.xc == coord_robot.xc && pos_min.yc == coord_robot.yc && pos_min.anglec == coord_robot.anglec)
+                if (rodeo == true && pos_min.xc == coord_robot.xc && pos_min.yc == coord_robot.yc && pos_min.anglec == coord_robot.anglec)
                 {
                         gen_vector = generate_output(STOP, Mag_Advance, max_angle);
                         *next_state = 13;
                 }
-                else
-                {
-                        gen_vector = generate_output(STOP, Mag_Advance, max_angle);
-                        *next_state = 13;
-                }
+
                 break;
 
         default:
@@ -446,6 +463,8 @@ AdvanceAngle BUG1(coord coord_robot, coord coord_dest, Raw observations, int des
                 *next_state = 0;
                 break;
         }
+
+        printf("CONTADOR DE PASOS= %d", contador);
 
         return gen_vector;
 }
