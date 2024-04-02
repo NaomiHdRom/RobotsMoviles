@@ -79,8 +79,18 @@ int go_to(Inputs inputs)
  int flg_inte_quad = 0;
  int num_obs=1;
  float distance1;
+ float distance_G;
+ float next_distance;
  coord coord_robot;
  coord coord_dest;
+ coord coord_per;
+ coord coord_perd;
+ coord coord_cer;
+ coord next_coord_cer;
+ int obs_enc; 
+ int next_obs_enc;
+ int a;
+ int next_a; 
  int flg;
  int debug=0;
  float xmv,ymv,thetamv;
@@ -93,6 +103,10 @@ int go_to(Inputs inputs)
  int next_state_avoidance=0, next_state_destination=0, next_state_avoidance_destination=0;
  int next_state_fsm_engine=1;
  int state=0;
+ float xq;
+ float next_xq;
+ float yq;
+ float next_yq;
  AdvanceAngle DistTheta;
  AdvanceAngle mov_vector_avoidance;
  AdvanceAngle mov_vector_destination;
@@ -144,6 +158,7 @@ int go_to(Inputs inputs)
  coord_robot.xc=inputs.xo;
  coord_robot.yc=inputs.yo;
  coord_robot.anglec=inputs.angle_robot;
+ coord_per=coord_robot;
  fprintf(fpw,"( origen %f %f %f )\n",inputs.xo,inputs.yo,inputs.angle_robot);
 #ifdef DEBUG
  printf("( origen %f %f %f )\n",inputs.xo,inputs.yo,inputs.angle_robot);
@@ -269,7 +284,12 @@ int go_to(Inputs inputs)
 		// It calculates the robot's movement using an state machine that only avoids obstacles
 		// state_machine_avoidance_destination in ../state_machines/state_machine_avoidance.h
 		state=next_state;
-		DistTheta = state_machine_avoidance(observations, inputs.num_sensors, state, &next_state,inputs.Mag_Advance,inputs.max_angle);
+		coord_per = coord_perd;
+		coord_cer = next_coord_cer;
+		obs_enc = next_obs_enc;
+		a = next_a;
+		distance_G = next_distance;
+		DistTheta = state_machine_avoidance(observations, quantized_attraction, distance1, distance_G,&next_distance, inputs.num_sensors, coord_robot, coord_per,&coord_perd, coord_cer, &next_coord_cer, obs_enc, &next_obs_enc, a, &next_a, state, &next_state, inputs.Mag_Advance, inputs.max_angle);
 
 #ifdef DEBUG
 		printf("avoidance behavior movement: angle  %f distance %f\n",DistTheta.angle,DistTheta.distance);
@@ -288,7 +308,7 @@ int go_to(Inputs inputs)
 
 	}
 
-	else if(selection == 4){
+	else if(selection == 5){
 		// It calculates the robot's movement using an state machine that avoids obstacles and goes to a light source
 		state=next_state;
 		// state_machine_avoidance_destination in ../state_machines/state_machine_avoidance_destination.h
@@ -298,7 +318,7 @@ int go_to(Inputs inputs)
 #endif
 	}
 
-        else if(selection == 5){
+        else if(selection == 4){
                 // It calculates the robot's movement using an state machine created by an student
 
                 // state_machine_avoidance_destination in ../state_machines/state_machine_student.h
@@ -314,6 +334,43 @@ int go_to(Inputs inputs)
                 state=next_state;
                 // state_machine_students in ../state_machines/state_machine_student.h
                 DistTheta = state_machine_students(observations, quantized_attraction, quantized_intensity,state,&next_state,inputs.Mag_Advance,inputs.max_angle, inputs.num_sensors);
+
+#ifdef DEBUG
+                printf("Student FSM behavior avoidance destination: angle  %f distance %f\n",DistTheta.angle,DistTheta.distance);
+#endif
+        }
+
+	else if(selection == 7){
+                // It calculates the robot's movement using a bug algorithm created by an student
+                state=next_state;
+                // state_machine_students in ../state_machines/state_machine_student.h
+                DistTheta = bug1_students(observations, quantized_attraction, coord_robot, quantized_intensity,state,&next_state,inputs.Mag_Advance,inputs.max_angle, inputs.num_sensors);
+
+#ifdef DEBUG
+                printf("Student FSM behavior avoidance destination: angle  %f distance %f\n",DistTheta.angle,DistTheta.distance);
+#endif
+        }
+	else if(selection == 8){
+                
+		
+		a = next_a;
+		xq = next_xq;
+		yq = next_yq;
+                // state_machine_students in ../state_machines/state_machine_student.h
+                DistTheta = Campos_P(observations, angle_light, distance1, coord_robot, quantized_intensity,a,&next_a,xq,&next_xq,yq,&next_yq,inputs.Mag_Advance,inputs.max_angle, inputs.num_sensors, inputs.theta_sensor, inputs.range_sensor);
+
+#ifdef DEBUG
+                printf("Student FSM behavior avoidance destination: angle  %f distance %f\n",DistTheta.angle,DistTheta.distance);
+#endif
+        }
+	else if(selection == 9){
+                
+		
+		a = next_a;
+		xq = next_xq;
+		yq = next_yq;
+                // state_machine_students in ../state_machines/state_machine_student.h
+                DistTheta = Campos_P2(observations, angle_light, distance1, coord_robot, quantized_intensity,a,&next_a,xq,&next_xq,yq,&next_yq,inputs.Mag_Advance,inputs.max_angle, inputs.num_sensors, inputs.theta_sensor, inputs.range_sensor);
 
 #ifdef DEBUG
                 printf("Student FSM behavior avoidance destination: angle  %f distance %f\n",DistTheta.angle,DistTheta.distance);
