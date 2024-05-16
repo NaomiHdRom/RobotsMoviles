@@ -45,6 +45,7 @@
 )
 
 (defrule move-object
+    "Mover objeto a su habitación objetivo"
     ?obj <- (item (type Objects) (name ?name) (room ?current-room))
     ?goal <- (transfer ?target-room ?name)
     (test (neq ?current-room ?target-room))
@@ -54,8 +55,47 @@
     (retract ?goal) ; Retirar la meta una vez que se ha alcanzado
 )
 
+(defrule generate-instructions
+    "Generar instrucciones según la planificación"
+    ?obj <- (item (type Objects) (name ?name) (room ?current-room))
+    ?goal <- (transfer ?target-room ?name)
+    =>
+    (if (eq ?current-room ?target-room)
+        then
+        (printout t "Object " ?name " is already in room " ?target-room "." crlf)
+        else
+        (printout t "goto " ?target-room crlf)
+        (printout "commands.dat" "goto " ?target-room crlf)
+        (printout t "find " ?name crlf)
+        (printout t "grab " ?name crlf)
+    )
+    (retract ?goal) ; Retirar la meta una vez que se ha alcanzado
+)
+
+(defrule release-instructions
+    "Generar instrucciones para liberar un objeto"
+    ?obj <- (item (type Objects) (name ?name) (room ?current-room))
+    (not (transfer ?target-room ?name)) ; No hay transferencia pendiente para este objeto
+    =>
+    (printout t "release " ?name crlf)
+    (printout "commands.dat" "OPERATOR release block " ?name crlf)
+)
+
 (defrule all-objects-in-target-rooms
+    "Verificar si todos los objetos están en sus habitaciones objetivo"
     (not (transfer ?any ?any))
     =>
     (printout t "All objects have been moved to their target rooms." crlf)
+)
+
+(defrule open-file
+    "Abre el archivo para escribir instrucciones"
+    =>
+    (open "commands.dat" write)
+)
+
+(defrule close-file
+    "Cierra el archivo después de escribir las instrucciones"
+    =>
+    (close "commands.dat")
 )
